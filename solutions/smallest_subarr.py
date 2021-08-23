@@ -17,8 +17,10 @@ def smallest_subarr(s, arr):
 
 
 def main():
-    print("smallest subarray length" + str(smallest_subarr(7,[2,3,5,1,6,7])))
-    print("smallest subarray length" + str(smallest_subarr(7,[2,3,5,6,4,7])))
+    print("smallest subarray length: " + str(smallest_subarr(7,[2,3,5,1,6,7])))
+    print("smallest subarray length: " + str(smallest_subarr(2,[2,3,5,6,4,7])))
 
-    
+
 main()
+
+

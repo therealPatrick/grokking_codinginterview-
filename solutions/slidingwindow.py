@@ -17,5 +17,8 @@ def main():
     print("Average  subarray of size k is : "  + str(result))
 main()
 
+# software
+
+
 
 
