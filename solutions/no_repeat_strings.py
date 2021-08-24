@@ -10,7 +10,7 @@ def non_repeat_string(str):
         char_index_map [right_char] = window_end
         max_length = max(max_length, window_end - window_start + 1)
     return max_length
-
+# time complexity = O(N) where n is the number of elements |  space complexity is O(1) constant time 
 def main():
     print("Length of the longest substring is: " + str(non_repeat_string("aabccbb")))
     print("Length of the longest substring is: " + str(non_repeat_string("abbbb")))
