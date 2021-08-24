@@ -17,7 +17,7 @@ def length_of_longest_substring(str, k):
 
         max_length = max(max_length, window_end - window_start + 1)
     return max_length
-
+# time = O(N)   | space = O(1) 
 def main():
     print(length_of_longest_substring("aabccbb",2))
     print(length_of_longest_substring("abbcb", 1))
