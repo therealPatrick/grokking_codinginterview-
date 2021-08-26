@@ -23,7 +23,7 @@ def find_permuations(str, pattern):
                     matched -= 1
                 char_frequency[left_char] += 1
     return False
-
+# time = O(N+M) where N and M are the number of character in the input string and  pattern respectively | space O(M)
 def main():
     print('permutation exist: ' + str(find_permuations("oidbcaf", "abc")))
     print('permutation exists: ' + str(find_permuations("odicf", "dc")))
